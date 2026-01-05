@@ -15,7 +15,7 @@ class Solution {
 
         while (dummy_pointer != null) {
             size++;
-            dummy_pointer = dummy_pointer.next; // Move to the next node
+            dummy_pointer = dummy_pointer.next;
         }
 
         ListNode dummy = new ListNode(0);
